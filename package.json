@@ -1,0 +1,29 @@
+{
+  "name": "unified-ai-workspace",
+  "version": "1.0.0",
+  "description": "Unified AI Workspace - Local-First WhatsApp + Gmail + Google Drive AI Application",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node runner.js",
+    "start": "node runner.js",
+    "build": "cd frontend && npm run build",
+    "migrate": "cd backend && npm run migrate",
+    "db:migrate": "cd backend && npm run migrate",
+    "seed": "cd backend && npm run seed",
+    "db:seed": "cd backend && npm run seed",
+    "seed:demo": "cd backend && npm run seed:demo",
+    "test": "node testSuite.js"
+  },
+  "keywords": [
+    "ai",
+    "workspace",
+    "whatsapp",
+    "gmail",
+    "google-drive",
+    "gemini",
+    "local-first"
+  ],
+  "author": "Unified AI Workspace",
+  "license": "MIT"
+}

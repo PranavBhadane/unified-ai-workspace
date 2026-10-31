@@ -1,0 +1,15 @@
+# Backend Git Ignore Rules
+.env
+.env.*
+!.env.example
+node_modules/
+storage/
+storage/**
+auth_info_baileys/
+session/
+*.session
+*.log
+logs/
+*.sql
+!src/database/migrations/*.sql
+*.dump

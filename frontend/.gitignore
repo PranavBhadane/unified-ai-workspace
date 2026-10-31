@@ -1,0 +1,9 @@
+# Frontend Git Ignore Rules
+node_modules/
+dist/
+.vite/
+.env
+.env.local
+.env.*
+!.env.example
+*.log

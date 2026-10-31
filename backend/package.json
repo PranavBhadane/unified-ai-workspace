@@ -1,0 +1,43 @@
+{
+  "name": "unified-ai-workspace-backend",
+  "version": "1.0.0",
+  "description": "Unified AI Workspace - Local-First WhatsApp + Gmail + Google Drive AI Backend",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "migrate": "node src/database/migrate.js",
+    "db:migrate": "node src/database/migrate.js",
+    "seed": "node src/database/seed.js",
+    "db:seed": "node src/database/seed.js",
+    "seed:demo": "node src/database/seedDemo.js",
+    "test:db": "node src/database/testConnection.js",
+    "mock:whatsapp": "node scripts/mock-whatsapp-service.js",
+    "test:whatsapp": "node scripts/verify-whatsapp-api.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "@google/genai": "^2.32.0",
+    "@whiskeysockets/baileys": "^6.7.19",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "docx": "^9.15.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mammoth": "^1.9.0",
+    "mysql2": "^3.12.0",
+    "node-cron": "^3.0.3",
+    "openai": "^7.47.0",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.20.2",
+    "pino": "^9.6.0",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
